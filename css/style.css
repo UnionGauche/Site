@@ -21,3 +21,9 @@ main {
 	padding: 2% 2% 2% 2%;
 }
 
+#UDGLogo {
+	transition: transform .8s ease-in-out;
+}
+#UDGLogo:hover {
+	transform: rotate(360deg);
+}
