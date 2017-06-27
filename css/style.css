@@ -2,19 +2,40 @@ html {
 	font-family: monospace;
 	text-align: center;
 	font-size : 130%;
+}	
+
+#maincontainer {
+	/*: table;display*/
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+
+#maincontainer2 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
 }
 
 main {
-	margin-top : 20em;
+	/*margin-top : 20em;*/
+	float:left;
+	width:46%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+
 }
 
-.social {
-	font-weight: bold;
-	border-radius: 7px;
-	border: solid 2px;
-	width: 40%;
-	margin: auto;
-	padding: 1% 1% 1% 1%;
+aside {
+	float:left;
+	width:35%;
+	position:relative;
+	left:64%;
+	overflow:hidden;
+
 }
 
 .presentation {
@@ -28,13 +49,15 @@ main {
 	transform: rotate(360deg);
 }
 
-#entete {
+header {
 	width: 40%;
 	margin: auto;
+	padding-bottom: 50px;
 }
 
-#titre {
+h1 {
 	width: 40%;
 	margin: auto;
 	padding: 1% 1% 1% 1%;
+	font-weight: bold;
 }
