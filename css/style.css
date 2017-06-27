@@ -11,9 +11,10 @@ main {
 .social {
 	font-weight: bold;
 	border-radius: 7px;
-	border: solid;
+	border: solid 2px;
 	width: 40%;
 	margin: auto;
+	padding: 1% 1% 1% 1%;
 }
 
 .presentation {
