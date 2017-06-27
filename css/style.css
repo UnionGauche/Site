@@ -27,3 +27,8 @@ main {
 #UDGLogo:hover {
 	transform: rotate(360deg);
 }
+
+#entete {
+	width: 40%;
+	margin: auto;
+}
