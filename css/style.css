@@ -32,3 +32,9 @@ main {
 	width: 40%;
 	margin: auto;
 }
+
+#titre {
+	width: 40%;
+	margin: auto;
+	padding: 1% 1% 1% 1%;
+}
