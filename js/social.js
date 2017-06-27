@@ -1,14 +1,14 @@
 $(document).ready(function() {
     $('#discord').hover(function() {
         $(this).animate({
-            width: "+=3%",
-            height: "+=3%"
+            width: "+=1%",
+            height: "+=1%"
         }, 'slow');
 
     }, function() {
         $(this).animate({
-            width: "-=3%",
-            height: "-=3%"
+            width: "-=1%",
+            height: "-=1%"
         }, 'slow');
     });
 });
