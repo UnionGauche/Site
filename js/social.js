@@ -1,7 +1,12 @@
-$('#discord').mouseenter(function() {
-    $(this).animate({width: "50%", height: "50%"}, 'slow');
-});
+$('#discord').hover(function() {
+    $(this).animate({
+        width: "28%",
+        height: "28%"
+    }, 'slow');
 
-$('#discord').mouseleave(function() {   
-    $(this).animate({width: "28%"}, 'slow');
+}, function() {
+    $(this).animate({
+        width: "-28%",
+        height: "-28%"
+    }, 'slow');
 });
