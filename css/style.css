@@ -12,6 +12,8 @@ main {
 	font-weight: bold;
 	border-radius: 7px;
 	border: solid;
+	width: 40%;
+	margin: auto;
 }
 
 .presentation {
