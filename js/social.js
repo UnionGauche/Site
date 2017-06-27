@@ -3,12 +3,12 @@ $(document).ready(function() {
         $(this).animate({
             width: "+=1%",
             height: "+=1%"
-        }, 'slow');
+        }, 150);
 
     }, function() {
         $(this).animate({
             width: "-=1%",
             height: "-=1%"
-        }, 'slow');
+        }, 150);
     });
 });
