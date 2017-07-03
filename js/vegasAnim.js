@@ -1,4 +1,4 @@
-$("body").vegas({
+$("#maincontainer").vegas({
         delay: 5000,
         timer: false,
         shuffle: true,
