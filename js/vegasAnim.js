@@ -13,3 +13,4 @@ $("body").vegas({
             { src: "../img/test3.png" }
         ]
 });
+console.log(window.location.pathname);
