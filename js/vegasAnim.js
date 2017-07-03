@@ -8,8 +8,8 @@ $("body").vegas({
         transitionDuration: 2000,
         overlay: true,
         slides: [
-            { src: "../img/test1.jpg" },
-            { src: "../img/test2.jpg" },
-            { src: "../img/test3.jpg" }
+            { src: "../img/test1.png" },
+            { src: "../img/test2.png" },
+            { src: "../img/test3.png" }
         ]
 });
