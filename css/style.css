@@ -2,17 +2,19 @@ html {
 	font-family: monospace;
 	text-align: center;
 	font-size : 130%;
-}	
-
-#maincontainer {
-	/*: table;display*/
-	clear:left;
-	float:left;
-	width:100%;
-	overflow:hidden;
 }
 
-#maincontainer2 {
+#background-anim {
+	width:100%;
+	height: 100%;
+	position: absolute;
+  top: 0;
+  left: 0;
+	overflow:hidden;
+	z-index: -100;
+}
+
+#maincontainer {
 	float:left;
 	width:100%;
 	position:relative;

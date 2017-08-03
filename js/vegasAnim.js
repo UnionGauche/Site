@@ -1,4 +1,4 @@
-$("#maincontainer").vegas({
+$("#background-anim").vegas({
         delay: 5000,
         timer: false,
         shuffle: true,
